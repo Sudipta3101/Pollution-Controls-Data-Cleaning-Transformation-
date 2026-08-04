@@ -31,9 +31,11 @@ The objective is to improve data quality by handling inconsistencies, missing va
 ```
 Pollution-Control-Project/
 │
-├── Pollution_Control_Project.ipynb
+├── pollution.ipynb
 ├── README.md
-└── pollution_data.csv
+├── transformation.ipynb
+├── cleaned_dataset.csv
+└── pollution_raw_data.csv
 ```
 
 ---
@@ -59,12 +61,9 @@ The dataset contains pollution monitoring information such as:
 
 1. Import Libraries
 2. Load Dataset
-3. Data Inspection
-4. Data Cleaning
-5. Data Transformation
-6. Data Visualization
-7. Business Insights
-8. Conclusion
+3. Data Cleaning
+4. Data Transformation
+5. Data Visualization
 
 ---
 
@@ -84,7 +83,7 @@ The dataset contains pollution monitoring information such as:
 
 1. Clone the repository.
 2. Open the project in Visual Studio Code.
-3. Open `Pollution_Control_Project.ipynb`.
+3. Open `pollution.ipynb` for cleaning and `transformation.ipynb` for transformation.
 4. Ensure the required Python libraries are installed.
 5. Run all notebook cells sequentially.
 
